@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <>
     <div>
-      <Head>
+      {/* <Head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
   <link
     href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
     rel="stylesheet"
   />
-</Head>
+</Head> */}
 
 <div className="overflow-x-hidden">
       <div>                   {/*  page main div */}
