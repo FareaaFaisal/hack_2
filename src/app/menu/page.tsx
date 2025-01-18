@@ -128,7 +128,7 @@ export default function Menu() {
   </div>
 
   <div className="flex flex-col lg:gap-2 md:gap-1 gap-4 order-1 lg:order-2">
-    <Image src="/Coffee (1).svg" alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/desert1.svg" alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Desert</b>
     </h1>
