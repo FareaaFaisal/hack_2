@@ -121,14 +121,14 @@ export default function Menu() {
         <div className="flex flex-col lg:flex-row md:flex-row  gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 px-4 lg:px-0">
   <div className="order-2 lg:order-1">
     <Image
-      src="/desert1.svg"
+      src="/desert2.png"
       alt="deserts"
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
 
   <div className="flex flex-col lg:gap-2 md:gap-1 gap-4 order-1 lg:order-2">
-    <Image src="/desert1.svg" alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Desert</b>
     </h1>
