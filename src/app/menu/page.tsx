@@ -121,8 +121,8 @@ export default function Menu() {
         <div className="flex flex-col lg:flex-row md:flex-row  gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 px-4 lg:px-0">
   <div className="order-2 lg:order-1">
     <Image
-      src="/Desert1.svg"
-      alt="desert 1"
+      src="/desert1.svg"
+      alt="deserts"
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
