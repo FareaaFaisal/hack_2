@@ -41,7 +41,7 @@ export default function Header() {
           <Image src="/Project Status.svg" width={12} height={12} alt="about-dropdown" className="ml-[-35px] mt-[-15px]"/>
          
         
-          <Link href="/checkout" className="text-white group relative">
+          <Link href="/shop" className="text-white group relative">
             Shop
             <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-[5px] bg-[#FF9F0D] group-hover:w-2 items-center rounded-full transition-all"></span>
           </Link>
