@@ -40,12 +40,13 @@ export default function Home() {
             </div>
               <div className="w-[472px] h-[356px] text-white flex-col">
                 {/* div-1 content */}
-               <Image src="/Its Quick & Amusing!.svg" alt="heading" className="h-10"/>
+                <Image src="/Its Quick & Amusing!.svg" alt="heading" width={250} height={300} className="ml-4 mt-8"/>
                
-               <h1 className="logo mb-4 lg:text-6xl ml-6 text-xl mt-6  text-white font-bold"><span className="text-[#FF9F0D]">Th</span>e Art of Speed food Quality</h1>
-              <p className="mt-16 w-[218px] lg:flex-nowrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <h1 className="logo mb-4 lg:text-[50px] ml-4 text-xl mt-6 leading-tight text-white font-bold"><span className="text-[#FF9F0D]">Th</span>e Art of Speed food Quality</h1>
+              <p className="mt-12 ml-4 lg:flex-nowrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Varius sed pharetra dictum neque massa congue</p>
-<Link href="/menu"><button className="mt-10 bg-[#FF9F0D] text-center rounded-[36px] w-[190px] h-[45px] lg:h-[60px]">See Menu</button></Link>
+<Link href="/menu"><button className="mt-10 ml-4 bg-[#FF9F0D] text-center rounded-[36px] w-[190px] h-[45px] lg:h-[60px]">See Menu</button></Link>
+               
               </div>
               <div>
                 <Image
