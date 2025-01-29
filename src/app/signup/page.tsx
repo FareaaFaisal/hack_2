@@ -7,8 +7,10 @@ export default function Signup(){
         {/* Nav bar*/}
         <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
           <Image
-            src="unsplash_4ycv3Ky1ZZU.png"
+            src="/unsplash_4ycv3Ky1ZZU.png"
             alt="Banner Image"
+            width={500}
+            height={500}
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="min-h-[350px] relative z-50 h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-center p-6">
@@ -33,8 +35,10 @@ export default function Signup(){
 
 <div className="relative w-full max-w-md mb-3">             {/* Name Input */}
   <Image 
-    src="User.png" 
+    src="/User.png" 
     alt="User Icon" 
+    width={24}
+    height={24}
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
   />
   <input
@@ -47,8 +51,10 @@ export default function Signup(){
              
 <div className="relative w-full max-w-md mb-3">             {/* Email Input */}
   <Image
-    src="EnvelopeSimple.png" 
+    src="/EnvelopeSimple.png" 
     alt="Email Icon" 
+    width={24}
+    height={24}
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
   />
   <input
@@ -61,8 +67,10 @@ export default function Signup(){
 
 <div className="relative w-full max-w-md mb-3">             {/* password Input */}
   <Image
-    src="Lock.png" 
+    src="/Lock.png" 
     alt="Lock Icon" 
+    width={24}
+    height={24}
     className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 pointer-events-none" 
   />
   <input
@@ -89,12 +97,12 @@ export default function Signup(){
               <p className="text-slate-800 text-xl">OR</p>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-2">
               {/* <FcGoogle size={24}/> */}
-              <Image src="Google.png" alt="google icon"/>
+              <Image src="/Google.png" width={24} height={24} alt="google icon"/>
               <p>Sign up with Google</p>
               </button>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center gap-3">
                 {/* <FaApple size={24}/> */}
-                <Image src="Apple.png" alt="apple icon"/>
+                <Image src="/Apple.png" width={24} height={24} alt="apple icon"/>
                 <p>Sign up with Apple</p>
               </button>
             </div>

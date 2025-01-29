@@ -8,7 +8,9 @@ export default function Menu() {
         {/* First Section: Image and Breadcrumb */}
         <div className="relative font-[sans-serif] pt-20 before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
           <Image
-            src="unsplash_4ycv3Ky1ZZU.png"
+            src="/unsplash_4ycv3Ky1ZZU.png"
+            width={500}
+            height={500}
             alt="Banner Image"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -29,12 +31,14 @@ export default function Menu() {
         <div>
           <Image
             src="/menu1.svg"
+            width={448}
+            height={626}
             alt="heading"
             className="w-full lg:w-[448px] lg:h-[628px]"
           />
         </div>
         <div className="flex flex-col lg:gap-2 gap-4 md:gap-1">
-          <Image src="/Coffee (1).svg" alt="coffee pic" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+          <Image src="/Coffee (1).svg" width={24} height={24} alt="coffee pic" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
           <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
             <b>Starter Menu</b>
           </h1>
@@ -67,7 +71,7 @@ export default function Menu() {
         {/* part 2*/}
       <div className="flex flex-col-reverse lg:flex-row md:flex-row gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 mb-12 lg:mb-36 px-4 lg:px-0">       
   <div className="flex flex-col lg:gap-2 gap-4 md:gap-1">
-    <Image src="/Coffee (1).svg" alt="coffee pic" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" width={24} height={24} alt="coffee pic" className="w-6 h-6" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Main Course</b>
     </h1>
@@ -108,6 +112,8 @@ export default function Menu() {
     <Image
       src="/menu2.png"
       alt="menu 2"
+      width={448}
+      height={626}
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
@@ -115,7 +121,7 @@ export default function Menu() {
 
 
 
-        <div className="w-full h-[40%] mb-36"><Image src="/Client & customers.svg" alt="-"/></div>
+        <div className="w-full h-[40%] mb-36"><Image src="/Client & customers.svg" width={1923} height={668} alt="-"/></div>
 
         {/* part 3*/}
         <div className="flex flex-col lg:flex-row md:flex-row  gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 px-4 lg:px-0">
@@ -123,12 +129,14 @@ export default function Menu() {
     <Image
       src="/desert1.svg"
       alt="deserts"
+      width={448}
+      height={626}
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
 
   <div className="flex flex-col lg:gap-2 md:gap-1 gap-4 order-1 lg:order-2">
-    <Image src="/Coffee (1).svg" alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" width={24} height={24} alt="coffee"  className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Desert</b>
     </h1>
@@ -169,7 +177,8 @@ export default function Menu() {
         {/* part 4 */}
   <div className="flex flex-col-reverse lg:flex-row md:flex-row gap-6 lg:gap-36 justify-center mt-12 lg:mt-36 mb-12 lg:mb-36 px-4 lg:px-0">       
   <div className="flex flex-col lg:gap-2  md:gap-1 gap-4">
-    <Image src="/Coffee (1).svg" alt="Drinks" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
+    <Image src="/Coffee (1).svg" width={24}
+            height={24} alt="Drinks" className="w-6 h-6 lg:w-[24px] lg:h-[24px]" />
     <h1 className="text-3xl lg:text-5xl mb-4 text-[#333]">
       <b>Drinks</b>
     </h1>
@@ -210,12 +219,14 @@ export default function Menu() {
     <Image
       src="/desert2.png"
       alt="desert 2"
+      width={448}
+      height={626}
       className="w-full max-w-[448px] lg:w-[448px] lg:h-[628px] mx-auto"
     />
   </div>
 </div>
 
-        <div className="lg:mt-36 mt-5 lg:mb-36 mb-5 w-full h-[275px] flex justify-center"><Image src="/Clients and partner.svg" alt="clients and partners"/></div>
+        <div className="lg:mt-36 mt-5 lg:mb-36 mb-5 w-full h-[275px] flex justify-center"><Image src="/Clients and partner.svg" width={1923} height={668} alt="clients and partners"/></div>
         </div>
         </>
     )

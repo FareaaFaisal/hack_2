@@ -33,7 +33,7 @@ export default function Footer() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non efficitur mi. Aliquam convallis mi quis blandit risus suscipit ac.
         </p>
         <div className="mt-6 lg:mt-10 flex items-center gap-4">
-          <Image src="/Watch.svg" alt="watch" className="w-[48px] lg:w-[78px]" />
+          <Image src="/Watch.svg" width={48} height={0} alt="watch" className="w-[48px] lg:w-[78px]" />
           <div>
             <p>Opening Hours</p>
             <p>Mon - Sat (8:00 - 6:00)</p>
@@ -73,21 +73,21 @@ export default function Footer() {
         <h3 className="text-xl lg:text-2xl font-bold mb-4 lg:mb-10">Recent Posts</h3>
         <div className="space-y-4">
           <div className="flex items-center gap-4">
-            <Image src="/Mask Group.svg" alt="post" className="w-[48px] lg:w-[59px]" />
+            <Image src="/Mask Group.svg" width={48} height={0} alt="post" className="w-[48px] lg:w-[59px]" />
             <div>
               <p className="text-sm lg:text-base text-gray-400">20 Feb 2024</p>
               <p className="text-sm lg:text-base">Keep Your Business</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Image src="/Mask Group (2).svg" alt="post" className="w-[48px] lg:w-[59px]" />
+            <Image src="/Mask Group (2).svg" alt="post" width={48} height={0}  className="w-[48px] lg:w-[59px]" />
             <div>
               <p className="text-sm lg:text-base text-gray-400">20 Feb 2024</p>
               <p className="text-sm lg:text-base">Keep Your Business</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Image src="/unsplash_50KffXbjIOg.svg" alt="post" className="w-[48px] lg:w-[59px]" />
+            <Image src="/unsplash_50KffXbjIOg.svg" width={48} height={0}  alt="post" className="w-[48px] lg:w-[59px]" />
             <div>
               <p className="text-sm lg:text-base text-gray-400">20 Feb 2024</p>
               <p className="text-sm lg:text-base">Keep Your Business</p>
@@ -102,7 +102,7 @@ export default function Footer() {
   <div className="bg-[#4F4F4F] w-full mt-10 lg:pl-24 lg:pr-24 lg:mt-20 py-4 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:gap-4">
     <p className="text-sm lg:text-base text-center">Copyright &copy; 2023 by Ayed, All Rights Reserved</p>
    <Link href="https://www.facebook.com/">
-   <Image src="Sociali icon.png" alt="social icons" className="w-[80px] lg:w-[200px]" />
+   <Image src="/Sociali icon.png" alt="Social icons" width={80} height={0}  className="w-[80px] lg:w-[200px]" />
    </Link>
   </div>
 </div>
